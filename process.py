@@ -1,6 +1,5 @@
 import argparse
 import os
-import ffmpeg
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
 def parse_cuts(filename):
